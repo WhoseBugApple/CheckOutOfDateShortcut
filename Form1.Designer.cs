@@ -64,7 +64,7 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(862, 465);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanelMain
@@ -76,14 +76,14 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanelMain.Controls.Add(this.tableLayoutPanelOutput, 0, 2);
             this.tableLayoutPanelMain.Controls.Add(this.tableLayoutPanelLog, 0, 3);
             this.tableLayoutPanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelMain.Location = new System.Drawing.Point(83, 3);
+            this.tableLayoutPanelMain.Location = new System.Drawing.Point(89, 3);
             this.tableLayoutPanelMain.Name = "tableLayoutPanelMain";
             this.tableLayoutPanelMain.RowCount = 4;
             this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanelMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanelMain.Size = new System.Drawing.Size(634, 444);
+            this.tableLayoutPanelMain.Size = new System.Drawing.Size(683, 459);
             this.tableLayoutPanelMain.TabIndex = 0;
             // 
             // tableLayoutPanelInput
@@ -98,15 +98,15 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanelInput.Name = "tableLayoutPanelInput";
             this.tableLayoutPanelInput.RowCount = 1;
             this.tableLayoutPanelInput.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelInput.Size = new System.Drawing.Size(628, 36);
+            this.tableLayoutPanelInput.Size = new System.Drawing.Size(677, 37);
             this.tableLayoutPanelInput.TabIndex = 0;
             // 
             // textBoxInput
             // 
             this.textBoxInput.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxInput.Location = new System.Drawing.Point(88, 5);
+            this.textBoxInput.Location = new System.Drawing.Point(88, 6);
             this.textBoxInput.Name = "textBoxInput";
-            this.textBoxInput.Size = new System.Drawing.Size(537, 25);
+            this.textBoxInput.Size = new System.Drawing.Size(586, 25);
             this.textBoxInput.TabIndex = 1;
             // 
             // label1
@@ -115,7 +115,7 @@ namespace CheckOutOfDateShortcut
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 36);
+            this.label1.Size = new System.Drawing.Size(79, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Directory";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -127,12 +127,12 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanelButton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelButton.Controls.Add(this.buttonRun, 0, 0);
             this.tableLayoutPanelButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelButton.Location = new System.Drawing.Point(3, 45);
+            this.tableLayoutPanelButton.Location = new System.Drawing.Point(3, 46);
             this.tableLayoutPanelButton.Name = "tableLayoutPanelButton";
             this.tableLayoutPanelButton.RowCount = 1;
             this.tableLayoutPanelButton.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanelButton.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanelButton.Size = new System.Drawing.Size(628, 36);
+            this.tableLayoutPanelButton.Size = new System.Drawing.Size(677, 37);
             this.tableLayoutPanelButton.TabIndex = 1;
             // 
             // buttonRun
@@ -140,7 +140,7 @@ namespace CheckOutOfDateShortcut
             this.buttonRun.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonRun.Location = new System.Drawing.Point(3, 3);
             this.buttonRun.Name = "buttonRun";
-            this.buttonRun.Size = new System.Drawing.Size(622, 30);
+            this.buttonRun.Size = new System.Drawing.Size(671, 31);
             this.buttonRun.TabIndex = 0;
             this.buttonRun.Text = "Run";
             this.buttonRun.UseVisualStyleBackColor = true;
@@ -153,12 +153,12 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanelOutput.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanelOutput.Controls.Add(this.listView1, 0, 1);
             this.tableLayoutPanelOutput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelOutput.Location = new System.Drawing.Point(3, 87);
+            this.tableLayoutPanelOutput.Location = new System.Drawing.Point(3, 89);
             this.tableLayoutPanelOutput.Name = "tableLayoutPanelOutput";
             this.tableLayoutPanelOutput.RowCount = 2;
             this.tableLayoutPanelOutput.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelOutput.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelOutput.Size = new System.Drawing.Size(628, 330);
+            this.tableLayoutPanelOutput.Size = new System.Drawing.Size(677, 342);
             this.tableLayoutPanelOutput.TabIndex = 2;
             // 
             // label2
@@ -167,7 +167,7 @@ namespace CheckOutOfDateShortcut
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(622, 15);
+            this.label2.Size = new System.Drawing.Size(671, 15);
             this.label2.TabIndex = 0;
             this.label2.Text = "Links that Missing Target";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,7 +181,7 @@ namespace CheckOutOfDateShortcut
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(3, 18);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(622, 309);
+            this.listView1.Size = new System.Drawing.Size(671, 321);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -189,12 +189,12 @@ namespace CheckOutOfDateShortcut
             // columnHeader1
             // 
             this.columnHeader1.Text = "File Name";
-            this.columnHeader1.Width = 242;
+            this.columnHeader1.Width = 171;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Target";
-            this.columnHeader2.Width = 306;
+            this.columnHeader2.Width = 469;
             // 
             // tableLayoutPanelLog
             // 
@@ -202,11 +202,11 @@ namespace CheckOutOfDateShortcut
             this.tableLayoutPanelLog.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanelLog.Controls.Add(this.labelLog, 0, 0);
             this.tableLayoutPanelLog.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelLog.Location = new System.Drawing.Point(3, 423);
+            this.tableLayoutPanelLog.Location = new System.Drawing.Point(3, 437);
             this.tableLayoutPanelLog.Name = "tableLayoutPanelLog";
             this.tableLayoutPanelLog.RowCount = 1;
             this.tableLayoutPanelLog.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelLog.Size = new System.Drawing.Size(628, 18);
+            this.tableLayoutPanelLog.Size = new System.Drawing.Size(677, 19);
             this.tableLayoutPanelLog.TabIndex = 3;
             // 
             // labelLog
@@ -217,7 +217,7 @@ namespace CheckOutOfDateShortcut
             this.labelLog.MaximumSize = new System.Drawing.Size(0, 24);
             this.labelLog.MinimumSize = new System.Drawing.Size(0, 10);
             this.labelLog.Name = "labelLog";
-            this.labelLog.Size = new System.Drawing.Size(622, 18);
+            this.labelLog.Size = new System.Drawing.Size(671, 19);
             this.labelLog.TabIndex = 0;
             this.labelLog.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -225,7 +225,7 @@ namespace CheckOutOfDateShortcut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(862, 465);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "CheckOutOfDateShortCut";
